@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 375px;
+    height: 265px;
+    box-shadow: 4px 8px 31px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.7rem;
+}
+.title{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.4rem;
+}
+.subtitle{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+}
+.paragraph{
+    color: hsl(204, 43%, 60%);
+}
+.white{
+    text-align: start;
+    height: 270px;
+    line-height: 1.9rem;
+    
+}
+.cyan{
+  
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+.cyan2{
+    background-color: hsl(179, 62%, 53%);
+    color: white;
+}
+.subtitle2{
+    
+    font-size: 1.2rem;
+}
+.row{
+font-size: 2rem;
+}
+.row > span{
+    font-size: 1.2rem;
+    color: hsl(206, 33%, 89%);
+}
+button{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    box-shadow: 4px 8px 31px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+.largue-p{
+    width: 13.9rem;
+    color: hsl(0, 0%, 92%);
+    line-height: 1.4rem;
+}
+@media(min-width:600px){
+    .white{
+        width: 750px;
+    }
+    .row-cards{
+        display: flex;
+    }
+    button{
+        width: 18rem;
+
+    }
+    .card{
+        padding: 2.5rem;
+    }
+}
